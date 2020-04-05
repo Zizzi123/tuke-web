@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TeeShop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles/style.css" />
+    <link rel="stylesheet" href="src/styles/menu.css" />
+    <!-- ++++++++++++ -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- ++++++++++++ -->
+  </head>
+  <body>
+    <!--
+<nav>
+    <div class="logo">
+        <img src="images/logo.jpg" alt="">
+    </div>
+    <div class="items collapse navbar-collapse">
+        <a href="#home" class="menu-style">
+            <div class="item">
+                <p>Home</p>
+            </div>
+        </a>
+        <a href="#about-us" class="menu-style">
+            <div class="item">
+                <p>About us</p>
+            </div>
+        </a>
+        <a href="#products" class="menu-style">
+            <div class="item">
+                <p>Products</p>
+            </div>
+        </a>
+        <a href="#articles" class="menu-style">
+            <div class="item">
+                <p>Donors</p>
+            </div>
+        </a>
+        <a href="#contact" class="menu-style">
+            <div class="item">
+                <p>Contact</p>
+            </div>
+        </a>
+    </div>
+</nav>
+-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="logo">
+            <img src="src/images/logo.jpg" alt="" />
+          </div>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-us">About us</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#articles">Donors</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- 00000000000000000000000000000000000000000000 -->
+    <section class="main" id="home">
+      <h1 class="title">
+        Home
+      </h1>
+    </section>
+
+    <section>
+      <div id="about-us" class="full-container">
+        <h1 class="title">
+          About us
+        </h1>
+        <div class="div-tab">
+          <table class="table_t">
+            <tr class="tr-country">
+              <th></th>
+              <th>Slovakia</th>
+              <th>Czechia</th>
+              <th>Great Britain</th>
+              <th>Germany</th>
+              <th>Italy</th>
+              <th>Poland</th>
+              <th>Belgium</th>
+              <!--        <th>Netherlands</th>
+                            <th>Spain</th>
+                            <th>Portugal</th>
+                            <th>Greece</th>
+                            <th>Hungary</th>
+                            <th>Austria</th> -->
+            </tr>
+            <tr>
+              <th>Tea consuption per person per year</th>
+              <td>0.1kg</td>
+              <td>0.15kg</td>
+              <td>0.5kg</td>
+              <td>0.225kg</td>
+              <td>0.5kg</td>
+              <td>0.2kg</td>
+              <td>0.175kg</td>
+              <!--        <td>0.125kg</td>
+                            <td>0.3kg</td>
+                           <td>0.25kg</td>
+                            <td>0.1kg</td>
+                            <td>0.5kg</td>
+                            <td>0.7kg</td>-->
+            </tr>
+            <tr>
+              <th>Tea consuption in country</th>
+              <td>55kg</td>
+              <td>64kg</td>
+              <td>78kg</td>
+              <td>11kg</td>
+              <td>24kg</td>
+              <td>41kg</td>
+              <td>16kg</td>
+              <!--    <td>28kg</td>
+                        <td>34kg</td>
+                        <td>13kg</td>
+                        <td>14kgtd</td>
+                        <td>18kg</td>
+                        <td>61kg</td> -->
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div id="products" class="full-container">
+        <h1 class="title">
+          Products
+        </h1>
+        <div class="div-product">
+          <article class="concrete-product">
+            <h2>Article</h2>
+            <img src="src/images/black_tea.jpg" alt="" />
+            <!--
+                <a class="name-of-product" href="article1.html">
+                    <button>
+                        Black Tea
+                    </button>
+                </a>
+                -->
+            <form action="src/article1.html">
+              <input type="submit" value="Black tea" class="name-of-product" />
+            </form>
+          </article>
+          <article class="concrete-product">
+            <h2>Article</h2>
+            <img src="src/images/green_tea.jpg" alt="" />
+            <!--
+                <a class="name-of-product" href="">
+                    <button>
+                        Green Tea
+                    </button>
+                </a>
+                -->
+            <form action="src/article2.html">
+              <input type="submit" value="Green tea" class="name-of-product" />
+            </form>
+          </article>
+          <article class="concrete-product">
+            <h2>Article</h2>
+            <img src="src/images/white_tea.jpg" alt="" />
+            <!--
+                <a class="name-of-product" href="">
+                    <button>
+                        White Tea
+                    </button>
+                </a>
+                -->
+            <form action="src/article3.html">
+              <input type="submit" value="White tea" class="name-of-product" />
+            </form>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div id="articles" class="full-container">
+        <h1 class="title">
+          Donors
+        </h1>
+        <ul>
+          <li>
+            <p class="name">Janko Hrasko</p>
+            <p class="count">10 â¬</p>
+          </li>
+          <li>
+            <p class="name">Peter Mrkvicka</p>
+            <p class="count">15 â¬</p>
+          </li>
+          <li>
+            <p class="name">Zuzka Caputka</p>
+            <p class="count">150 â¬</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <div id="contact" class="full-container">
+        <h1 class="title">
+          Contact
+        </h1>
+        <div class="div-contact">
+          <div class="div-form">
+            <form id="best-form">
+              <table class="form-table">
+                <tr>
+                  <td class="td-form">
+                    <label for="fname">First name:</label>
+                  </td>
+                  <td class="td-form2">
+                    <input
+                      type="text"
+                      id="fname"
+                      name="fname"
+                      required
+                      class="border-input"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td-form"><label for="lname">Last name:</label></td>
+                  <td class="td-form2">
+                    <input
+                      type="text"
+                      id="lname"
+                      name="lname"
+                      required
+                      class="border-input"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td-form"><label for="mail">E-mail:</label></td>
+                  <td class="td-form2">
+                    <input
+                      type="email"
+                      id="mail"
+                      name="mail"
+                      required
+                      class="border-input"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td-form"><p class="form-left">Gender:</p></td>
+                  <td class="td-form2">
+                    <input type="radio" id="male" name="gender" />
+                    <label for="male" class="form-right">Male</label>&nbsp;
+                    <input type="radio" id="female" name="gender" />
+                    <label for="female" class="form-right">Female</label>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td rowspan="4" class="td-form">
+                    <p class="form-left">Favourite tea:</p>
+                  </td>
+                  <td class="td-form3">
+                    <input type="checkbox" id="bt" name="black_t" />
+                    <label for="bt" class="form-right">Black tea</label>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td-form3">
+                    <input type="checkbox" id="gt" name="green_t" />
+                    <label for="gt" class="form-right">Green tea</label>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td-form3">
+                    <input type="checkbox" id="wt" name="white_t" />
+                    <label for="wt" class="form-right">White tea</label>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td-form3">
+                    <input type="checkbox" id="oo" name="other_t" />
+                    <label for="oo" class="form-right">Other...</label>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td-form">
+                    <label for="text">Your opinion:</label>
+                  </td>
+                  <td class="td-form2">
+                    <textarea
+                      rows="4"
+                      cols="40"
+                      name="opinion"
+                      id="text"
+                      required
+                      class="border-input"
+                    ></textarea>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td-form"><label for="img">Image:</label></td>
+                  <td class="td-form2">
+                    <input
+                      type="url"
+                      id="img"
+                      name="img"
+                      class="border-input"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td-form2">
+                    <button type="submit">Submit</button>
+                  </td>
+                  <td class="td-form2">
+                    <button type="reset">Reset</button>
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="form-answers">
+        <h1><u>Your answers:</u></h1>
+        <div id="aaa" class="form-answers2"></div>
+      </div>
+    </section>
+
+    <script id="tea-form" type="text/template">
+      <hr>
+          <h3>{{name}} {{surname}}</h3>
+          <p>{{email}}</p>
+          <p>{{sex}}</p>
+          <p>{{tea}}</p>
+          <p>{{text}}</p>
+          <hr class="form-line">
+      </section>
+    </script>
+
+    <script src="src/scripts/script.js"></script>
+  </body>
+</html>
